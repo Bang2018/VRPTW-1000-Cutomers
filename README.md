@@ -12,6 +12,9 @@ You can download the resut from https://www.sintef.no/contentassets/51a833740c45
 Method: Take subset of the above problem instance iteratively. Please check the .LP files I have created from each subset. Run LP files one after another and generate optimum route.
 
 Computational Time: 14 secs to create LP file from each subset
+
                     Mip Gap: 0.01
+                    
                     Max 2~4 mins to solve each LP file
+                    
                     You can also use parallel processing to reduce computational time further
